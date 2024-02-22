@@ -1,0 +1,45 @@
+#page {
+  position: relative;
+}
+.header {
+  background-color: rgb(33, 37, 41);
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.cl-white {
+  color: #f9f9f9 !important;
+}
+.nav-item {
+  text-transform: uppercase;
+}
+.masthead {
+  background-image: url(./img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  min-height: 745px;
+}
+.masthead .container {
+  width: 100%;
+}
+.masthead-subheading {
+  color: #f9f9f9;
+  font-size: 2.25rem;
+  font-style: italic;
+  line-height: 2.25rem;
+  margin-bottom: 2rem;
+}
+.masthead-heading {
+  color: #f9f9f9;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 4rem;
+}
+.btn {
+  padding: 20px;
+}
